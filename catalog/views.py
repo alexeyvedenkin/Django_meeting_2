@@ -8,8 +8,8 @@ from django.views.generic import (
     UpdateView,
 )
 
-# from catalog.models import Product
-# from catalog.forms import ProductForm
+from catalog.models import Product
+from catalog.forms import ProductForm
 
 class ProductListView(ListView):
     model = Product
